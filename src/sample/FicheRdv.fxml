@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="606.0" style="-fx-background-color: #0894d0;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="21.0" layoutY="29.0" prefHeight="50.0" prefWidth="197.0" text="Fiche_RDV" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="100.0" prefHeight="22.0" prefWidth="112.0" text="Prenom_Patient">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="149.0" prefHeight="20.0" prefWidth="104.0" text="Nom_Patient">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="214.0" prefHeight="20.0" prefWidth="80.0" text="Date">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="270.0" prefHeight="17.0" prefWidth="80.0" text="Heure">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="330.0" prefHeight="20.0" prefWidth="73.0" text="Objet">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="130.0" layoutY="99.0" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: #ffffff;" />
+      <JFXTextField layoutX="130.0" layoutY="147.0" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: #ffffff;" />
+      <JFXDatePicker defaultColor="#0040ff" layoutX="130.0" layoutY="207.0" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: #ffffff;" />
+      <JFXTimePicker defaultColor="#004dff" layoutX="130.0" layoutY="267.0" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: #ffffff;" />
+      <JFXButton layoutX="490.0" layoutY="209.0" prefHeight="25.0" prefWidth="89.0" text="Imprimer" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField layoutX="130.0" layoutY="327.0" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: #ffffff;" />
+      <JFXButton layoutX="487.0" layoutY="122.0" prefHeight="25.0" prefWidth="89.0" text="Valider" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="490.0" layoutY="169.0" prefHeight="25.0" prefWidth="89.0" text="Annuler" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

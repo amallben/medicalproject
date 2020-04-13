@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="338.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Seancecontrol">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="326.0" style="-fx-background-color: #610466;">
+         <children>
+            <Label layoutX="28.0" layoutY="17.0" prefHeight="30.0" prefWidth="115.0" text="Séance" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="txtjour" focusColor="BLACK" layoutX="37.0" layoutY="81.0" prefHeight="25.0" prefWidth="250.0" promptText="Jour de séance" />
+      <JFXTextField fx:id="txtsalle" focusColor="BLACK" layoutX="38.0" layoutY="216.0" prefHeight="25.0" prefWidth="250.0" promptText="Ajouter la salle" />
+      <JFXTimePicker fx:id="txtheured" defaultColor="#610466" layoutX="38.0" layoutY="124.0" prefHeight="25.0" prefWidth="250.0" promptText="Heure début" />
+      <JFXTimePicker fx:id="txtheuref" defaultColor="#610466" layoutX="38.0" layoutY="171.0" prefHeight="25.0" prefWidth="250.0" promptText="Heure fin" />
+      <JFXButton fx:id="txtajouter" layoutX="206.0" layoutY="259.0" onAction="#ajout" prefHeight="25.0" prefWidth="99.0" style="-fx-background-color: #d63fcc;" text="Ajouter" />
+      <Label layoutX="38.0" layoutY="292.0" prefHeight="32.0" prefWidth="269.0" textFill="RED" />
+   </children>
+</AnchorPane>

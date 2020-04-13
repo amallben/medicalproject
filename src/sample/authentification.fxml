@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="444.0" style="-fx-background-image: url(' C:\Users\lenovo\IdeaProjects\projet2\src\sample\alog2.jpg');" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.authentification">
+   <children>
+      <ImageView fitHeight="281.0" fitWidth="444.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@alog2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="308.0" layoutY="14.0" prefHeight="30.0" prefWidth="122.0" text="BIENVENUE" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtnom" focusColor="BLACK" layoutX="117.0" layoutY="135.0" prefHeight="31.0" prefWidth="135.0" promptText="Login" unFocusColor="BLACK">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="txtmdp" layoutX="117.0" layoutY="179.0" promptText="Mot de passe">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton fx:id="entrer" layoutX="352.0" layoutY="227.0" onAction="#entrer" prefHeight="31.0" prefWidth="78.0" text="Entrer" textFill="#0894d0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="labWarn" layoutX="100.0" layoutY="222.0" prefHeight="30.0" prefWidth="231.0" textFill="RED" />
+      <JFXButton fx:id="exit" layoutX="25.0" layoutY="228.0" onAction="#exit" text="Quitter" textFill="#371cbf">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
